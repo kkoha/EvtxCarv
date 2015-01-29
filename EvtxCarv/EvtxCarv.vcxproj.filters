@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Application">
+      <UniqueIdentifier>{e727d652-8dc0-4950-93ec-cd44c2f9569e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Tools">
+      <UniqueIdentifier>{c5b88805-b052-4253-8eb5-e39c8bd0a114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EvtxCarver">
+      <UniqueIdentifier>{7d2690ae-a81c-4dfe-b7c8-c40f49ac0187}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EvtxCarver\EvtxChunkCarver">
+      <UniqueIdentifier>{0ecc349c-8796-407f-b93a-dea9bd2f8ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EvtxCarver\EvtxFileCarver">
+      <UniqueIdentifier>{bca43ff8-277e-4fef-87a3-25c6bae32d44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EvtxCarver\EvtxRecordCarver">
+      <UniqueIdentifier>{491366d0-919d-491b-b1cd-83de7549aaf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\EvtxCarver\EvtxCarver">
+      <UniqueIdentifier>{0fd9c3de-0099-44f8-b0ef-87648001c90a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ClusterReassembler">
+      <UniqueIdentifier>{42b1340c-102f-48c2-9ea1-15cba4521421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BinaryXml">
+      <UniqueIdentifier>{38238960-990c-4597-bacd-bd30308cc442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BinaryXml\Template">
+      <UniqueIdentifier>{07ff80ea-23fa-4065-9c6c-40013e147b93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BinaryXml\Name">
+      <UniqueIdentifier>{1fd9a1bc-7f5a-46ce-a738-2b46d7961dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\BinaryXml\Stream">
+      <UniqueIdentifier>{eeeb3812-c23c-406a-b14e-70cedd30d9ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\Common">
+      <UniqueIdentifier>{e7de99a9-e9a5-49be-86a8-df214da25bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxDataHeader">
+      <UniqueIdentifier>{be458907-3d57-4833-a839-fb19d2176ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tools">
+      <UniqueIdentifier>{90365856-be1e-484c-acd9-6f132cf9368b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Tools\RapidXML">
+      <UniqueIdentifier>{d31be63d-ab78-48c7-b039-b5ebeb06594d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxCarver">
+      <UniqueIdentifier>{4812b0f8-9208-4f33-a22b-82949b43fe4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxCarver\EvtxChunkCarver">
+      <UniqueIdentifier>{fe9a95e1-e1d4-4e18-8caa-395faf84ac6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxCarver\EvtxFileCarver">
+      <UniqueIdentifier>{f3da16db-b247-4cfa-aa25-3c5dfb5d05b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxCarver\EvtxRecordCarver">
+      <UniqueIdentifier>{2eeccf5b-b669-4571-9218-21c925c02ff7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\EvtxCarver\EvtxCarver">
+      <UniqueIdentifier>{1215822b-b416-4065-94c5-10f09ae92795}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\ClusterReassembler">
+      <UniqueIdentifier>{d8c7df0e-a2b6-4350-824f-999a5671ea06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\BinaryXml">
+      <UniqueIdentifier>{a5440086-73f6-4b24-8a12-8a09d39223da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\BinaryXml\Template">
+      <UniqueIdentifier>{2927f2db-3745-4129-8983-ef4f05db0d45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\BinaryXml\Name">
+      <UniqueIdentifier>{d8be667c-8282-434a-894b-c6d6f794c4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\BinaryXml\Stream">
+      <UniqueIdentifier>{f2740355-f21a-4c87-bbf1-3e1849a24259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>소스 파일\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="BinaryFile.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ChannelNameCollection.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkInfoParser.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputerNameCollection.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="crc32.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMap.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="PeResourceParser.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="RegistryReader.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="SignatureFinder.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTransform.cpp">
+      <Filter>소스 파일\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxChunkCarver.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxChunkCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxChunkValidator.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxChunkCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxFileCarver.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxFileCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxFileValidator.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxFileCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EventXmlParser.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxRecordCarver.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxRecordValidator.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="EvtxCarver.cpp">
+      <Filter>소스 파일\EvtxCarver\EvtxCarver</Filter>
+    </ClCompile>
+    <ClCompile Include="ClusterReassembler.cpp">
+      <Filter>소스 파일\ClusterReassembler</Filter>
+    </ClCompile>
+    <ClCompile Include="BinXmlTemplate.cpp">
+      <Filter>소스 파일\BinaryXml\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="BinXmlTemplateCollection.cpp">
+      <Filter>소스 파일\BinaryXml\Template</Filter>
+    </ClCompile>
+    <ClCompile Include="BinXmlName.cpp">
+      <Filter>소스 파일\BinaryXml\Name</Filter>
+    </ClCompile>
+    <ClCompile Include="BinXmlNameCollection.cpp">
+      <Filter>소스 파일\BinaryXml\Name</Filter>
+    </ClCompile>
+    <ClCompile Include="BinXmlStream.cpp">
+      <Filter>소스 파일\BinaryXml\Stream</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataType.h">
+      <Filter>헤더 파일\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxChunkHeader.h">
+      <Filter>헤더 파일\EvtxDataHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxFileHeader.h">
+      <Filter>헤더 파일\EvtxDataHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxRecordHeader.h">
+      <Filter>헤더 파일\EvtxDataHeader</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryFile.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ChannelNameCollection.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkInfoParser.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputerNameCollection.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="crc32.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMap.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="PeResourceParser.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="RegistryReader.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="SignatureFinder.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTransform.h">
+      <Filter>헤더 파일\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml.hpp">
+      <Filter>헤더 파일\Tools\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_iterators.hpp">
+      <Filter>헤더 파일\Tools\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_print.hpp">
+      <Filter>헤더 파일\Tools\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="rapidxml_utils.hpp">
+      <Filter>헤더 파일\Tools\RapidXML</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxChunkCarver.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxChunkCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxChunkValidator.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxChunkCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxFileCarver.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxFileCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxFileValidator.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxFileCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EventXmlParser.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxRecordCarver.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxRecordValidator.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxRecordCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="EvtxCarver.h">
+      <Filter>헤더 파일\EvtxCarver\EvtxCarver</Filter>
+    </ClInclude>
+    <ClInclude Include="ClusterReassembler.h">
+      <Filter>헤더 파일\ClusterReassembler</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryXmlDef.h">
+      <Filter>헤더 파일\BinaryXml</Filter>
+    </ClInclude>
+    <ClInclude Include="BinaryXmlTokens.h">
+      <Filter>헤더 파일\BinaryXml</Filter>
+    </ClInclude>
+    <ClInclude Include="BinXmlTemplate.h">
+      <Filter>헤더 파일\BinaryXml\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="BinXmlTemplateCollection.h">
+      <Filter>헤더 파일\BinaryXml\Template</Filter>
+    </ClInclude>
+    <ClInclude Include="BinXmlName.h">
+      <Filter>헤더 파일\BinaryXml\Name</Filter>
+    </ClInclude>
+    <ClInclude Include="BinXmlNameCollection.h">
+      <Filter>헤더 파일\BinaryXml\Name</Filter>
+    </ClInclude>
+    <ClInclude Include="BinXmlStream.h">
+      <Filter>헤더 파일\BinaryXml\Stream</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
