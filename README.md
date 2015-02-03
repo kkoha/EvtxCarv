@@ -11,7 +11,7 @@ EvtxCarv is a tool for fragmented Evtx files forensics.
 
 Execute `EvtxCarv` to analyze an image file
 <pre>
-EvtxCarv.exe (-r|-c) <target_image_path> <output_path>
+EvtxCarv.exe (-r|-c) 'target image path' 'output path'
 Options
     --record   (-r)    : Recover by record
     --complete (-c)    : Recover by chunk
